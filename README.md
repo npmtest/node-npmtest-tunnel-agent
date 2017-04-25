@@ -1,6 +1,6 @@
 # npmtest-tunnel-agent
 
-#### test coverage for  [tunnel-agent (v0.6.0)](https://github.com/mikeal/tunnel-agent#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-tunnel-agent.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tunnel-agent) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tunnel-agent.svg)](https://travis-ci.org/npmtest/node-npmtest-tunnel-agent)
+#### basic test coverage for  [tunnel-agent (v0.6.0)](https://github.com/mikeal/tunnel-agent#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-tunnel-agent.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tunnel-agent) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tunnel-agent.svg)](https://travis-ci.org/npmtest/node-npmtest-tunnel-agent)
 
 #### HTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-tunnel-agent/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-tunnel-agent/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-tunnel-agent/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-tunnel-agent/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tunnel-agent/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tunnel-agent/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-tunnel-agent/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-tunnel-agent/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tunnel-agent/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tunnel-agent/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-tunnel-agent/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-tunnel-agent/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
         "url": "git+https://github.com/mikeal/tunnel-agent.git"
     },
     "scripts": {},
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
 ```
 
